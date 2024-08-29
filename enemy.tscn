@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjg2o2l0ajk72"]
+
+[ext_resource type="PackedScene" uid="uid://d05tubi0b6h1e" path="res://hitman_terminus_suit@Walking.fbx" id="1_e68xn"]
+
+[node name="Root Scene" instance=ExtResource("1_e68xn")]

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3fha6u6hcsq0"]
+
+[ext_resource type="PackedScene" uid="uid://d05tubi0b6h1e" path="res://hitman_terminus_suit@Walking.fbx" id="1_75bt1"]
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+
+[node name="Root Scene" parent="." instance=ExtResource("1_75bt1")]
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
